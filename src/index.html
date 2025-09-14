@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>membuat tailwind</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="px-6 py-6 bg-[#0e0baa] shadow-xl sticky top-0 z-50">
+      <div class="flex justify-between text-white">
+        <h1 class="text-2xl text-blue-300">
+          PORTO<span class="font-bold text-white">FOLIO</span>
+        </h1>
+
+        <input type="checkbox" id="menu-toggle" class="hidden peer" />
+        <label
+          for="menu-toggle"
+          class="md:hidden text-white text-2xl cursor-pointer"
+        >
+          ☰
+        </label>
+
+        <nav class="space-x-6 text-lg md:block hidden">
+          <a
+            href="#"
+            class="inline px-4 py-6 hover:bg-blue-300 rounded-lg animasi ease-in-out"
+            >About</a
+          >
+          <a
+            href="#"
+            class="inline px-4 py-6 hover:bg-blue-300 rounded-lg animasi ease-in-out"
+            >Contact</a
+          >
+          <a
+            href="#"
+            class="inline px-4 py-6 hover:bg-blue-300 rounded-lg animasi ease-in-out"
+            >Galery</a
+          >
+        </nav>
+
+        <div class="hidden peer-checked:block md:hidden mt-4 space-y-2 text-lg">
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-blue-300 rounded-lg animasi ease-in-out"
+            >About</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-blue-300 rounded-lg animasi ease-in-out"
+            >Contact</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 hover:bg-blue-300 rounded-lg animasi ease-in-out"
+            >Galery</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="pb-24 text-center">
+      <h2 class="text-5xl font-bold leading-tight mb-6">
+        Belajar coding <span class="text-[#0b0bd3]">TAILWIND</span>
+      </h2>
+      <h3 class="text-lg my-20">
+        BELAJAR CODING DENGAN
+        <span class="text-xl font-bold text-blue-900 text-shadow-2xs"
+          >TAILWIND TUH ASIKK LOH 😍😍😍😍😍😍😍</span>
+        >
+      </h3>
+      <a
+        href="#"
+        class="inline-block bg-blue-600 shadow-2xl text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-all ease-in-out"
+        id="hero-button"
+        >Get Started</a
+      >
+
+      <a
+        href="https://tailwindcss.com/docs/installation"
+        class="inline-block bg-blue-900 shadow-2xl text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-all ease-in-out"
+        id="hero-button"
+        >lihat tailwind</a
+      >
+    </section>
+
+    <!-- pengertian tailwind -->
+    <section class="text-center my-36" id="pengertian">
+      <h1 class="text-6xl font-bold underline decoration-blue-800" id="h1-pengertian">PENGERTIAN TAILWIND</h1>
+      <div class="mx-auto max-w-3xl grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+        <div class="border border-gray-300 rounded-lg p-8 shadow-lg">
+          <img
+            class="w-[300px] h-36 mb-0.5"
+            src="https://episyche-blog.s3.ap-south-1.amazonaws.com/54/thumbnail_image/37efcb2d-b2be-4c0a-8935-da4a43218e1b.png"
+            alt=""
+          />
+          <p class="text-lg mb-12 w-3xs">
+            Tailwind CSS adalah framework CSS yang berfokus pada utilitas yang
+            memungkinkan pengembang untuk membangun desain web yang responsif
+            dan konsisten dengan cepat dan efisien.
+          </p>
+        </div>
+
+        <div class="border border-gray-300 rounded-lg p-8 shadow-lg">
+          <img
+            class="w-[200px] h-36 mb-0.5"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"
+            alt=""
+          />
+          <p class="text-lg mb-12 w-3xs mt-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+            excepturi cupiditate! Culpa, esse cumque? Numquam inventore, enim
+            modi harum saepe eveniet velit eligendi ducimus. Nulla, provident.
+            Veritatis suscipit omnis voluptate?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- keunggulan section -->
+    <section id="keunggulan">
+      <div class="text-center mb-20">
+        <h1 class="text-5xl font-bold mb-6">KEUNGGULAN TAILWIND</h1>
+        <p class="text-lg mx-auto max-w-3xl">
+          Tailwind CSS memiliki beberapa keunggulan yang membuatnya populer di
+          kalangan pengembang web. Berikut adalah beberapa keunggulan utama
+          Tailwind CSS:
+        </p>
+      </div>
+
+      <div class="mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+        <div class="border border-gray-300 rounded-lg p-8 shadow-lg">
+          <h2 class="text-2xl font-bold mb-4">1. Utility-first</h2>
+          <p class="text-lg mb-12">
+            Tailwind CSS menggunakan pendekatan utility-first, yang berarti
+            bahwa ia menyediakan kelas-kelas utilitas yang dapat digunakan
+            langsung dalam HTML untuk mengatur gaya elemen. Ini memungkinkan
+            pengembang untuk dengan cepat membangun desain tanpa harus menulis
+            banyak kode CSS kustom.
+          </p>
+        </div>
+
+        <div class="border border-gray-300 rounded-lg p-8 shadow-lg">
+          <h2 class="text-2xl font-bold mb-4">2. Kustomisasi Mudah</h2>
+          <p class="text-lg mb-12">
+            Tailwind CSS sangat mudah dikustomisasi. Pengembang dapat dengan 
+          </p>
+        </div>
+
+        <div class="border border-gray-300 rounded-lg p-8 shadow-lg">
+          <h2 class="text-2xl font-bold mb-4">3. Responsif</h2>
+          <p class="text-lg mb-12">
+            Tailwind CSS memiliki dukungan bawaan untuk desain responsif. 
+          </p>
+    </section>
+
+    <!-- cta section -->
+    <section id="cta">
+      <div class="bg-blue-600 text-white text-center  px-6 rounded-lg shadow-lg  mt-20 ">
+        <h2 class="text-4xl font-bold mb-4">Mulai Belajar Tailwind Sekarang!</h2>
+        <p class="text-lg mb-6">
+          Jangan lewatkan kesempatan untuk menguasai Tailwind CSS dan tingkatkan
+          keterampilan pengembangan web Anda.
+        </p>
+        <a
+          href="https://www.youtube.com/results?search_query=tailwind+css"
+          class="inline-block bg-white text-blue-600 px-6 py-3 mb-5 rounded-full text-lg font-semibold hover:bg-gray-200 transition-all ease-in-out"
+          >Lihat youtube tailwind</a
+        >
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#hero-button").click(function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: $("#h1-pengertian").offset().top,
+            },
+            700
+          );
+        $("#pengertian").hide().fadeIn(2000);
+       
+        });
+
+  
+        // animasi fade in
+       
+      });
+    </script>
+  </body>
+</html>

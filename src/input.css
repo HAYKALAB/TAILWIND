@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+.animasi {
+  transition: all 0.5s;
+}
